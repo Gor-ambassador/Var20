@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Var20</name>
+    </assembly>
+    <members>
+        <member name="T:CreateBD20.DBStructure.Info">
+            <summary>
+            Class with data about passenger
+            </summary>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.InfoId">
+            <value>
+            Service field for interaction with the database
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.Name">
+            <value>
+            Name of the passenger
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.Port">
+            <value>
+            Port of destination
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.RoomNumber">
+            <value>
+            Number of room
+            </value>
+        </member>
+        <member name="P:CreateBD20.DBStructure.Info.RoomType">
+            <value>
+            Type of roo
+            </value>
+        </member>
+        <member name="M:CreateBD20.DBStructure.Info.op_LessThan(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)">
+            <summary>
+            Checks whether the left element is less than the right one or not
+            </summary>
+            <returns>
+            Returns true if left element is less, false else
+            </returns>
+            <param name="left">
+            Left element
+            </param>
+            /// <param name="right">
+            Right element
+            </param>
+        </member>
+        <member name="M:CreateBD20.DBStructure.Info.op_GreaterThan(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)">
+            <summary>
+            Checks whether the left element is greater than the right one or not
+            </summary>
+            <returns>
+            Returns true if left element is greater, false else
+            </returns>
+            <param name="left">
+            Left element
+            </param>
+            /// <param name="right">
+            Right element
+            </param>
+        </member>
+        <member name="M:CreateBD20.DBStructure.Info.op_LessThanOrEqual(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)">
+            <summary>
+            Checks whether the left element is less or equal than the right one or not
+            </summary>
+            <returns>
+            Returns true if left element is less or equal, false else
+            </returns>
+            <param name="left">
+            Left element
+            </param>
+            /// <param name="right">
+            Right element
+            </param>
+        </member>
+        <member name="M:CreateBD20.DBStructure.Info.op_GreaterThanOrEqual(CreateBD20.DBStructure.Info,CreateBD20.DBStructure.Info)">
+            <summary>
+            Checks whether the left element is greater or equal than the right one or not
+            </summary>
+            <returns>
+            Returns true if left element is greater or equal, false else
+            </returns>
+            <param name="left">
+            Left element
+            </param>
+            /// <param name="right">
+            Right element
+            </param>
+        </member>
+        <member name="M:CreateBD20.Program.SelectionSort(CreateBD20.DBStructure.Info[])">
+            <summary>
+            This function is made for sorting list of elements using selection sort. It measures sorting time
+            </summary>
+            <returns>
+            Sorted List of Infos
+            </returns>
+            <param name="input">
+            List of Infos that we want to sort
+            </param>
+        </member>
+        <member name="M:CreateBD20.Program.InsertSort(CreateBD20.DBStructure.Info[])">
+            <summary>
+            This function is made for sorting list of elements using insert sort. It measures sorting time
+            </summary>
+            <returns>
+            Sorted List of Infos
+            </returns>
+            <param name="input">
+            List of Infos that we want to sort
+            </param>
+        </member>
+        <member name="M:CreateBD20.Program.QuickSortInterface(CreateBD20.DBStructure.Info[])">
+            <summary>
+            This function is used as interface for quick sort
+            </summary>
+            <returns>
+            Sorted List of Infos
+            </returns>
+            <param name="input">
+            List of Infos that we want to sort
+            </param>
+        </member>
+        <member name="M:CreateBD20.Program.QuickSort(CreateBD20.DBStructure.Info[],System.Int32,System.Int32)">
+            <summary>
+            This recursive function is made for sorting list of elements using quick sort. It measures sorting time. 
+            </summary>
+            <param name="input">
+            List of Info
+            </param>
+            /// <param name="start">
+            Position of sort_start
+            </param>
+            /// <param name="end">
+            Position of sort_end
+            </param>
+        </member>
+        <member name="T:Var20.Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext100000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext100000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext100000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext100000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext10000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext10000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext10000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext10000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext1000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext1000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext1000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext1000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext20000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext20000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext20000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext20000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext40000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext40000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext40000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext40000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext60000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext60000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext60000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext60000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Var20.Migrations.DataContext80000Migrations.MyMig">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext80000Migrations.MyMig.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext80000Migrations.MyMig.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Var20.Migrations.DataContext80000Migrations.MyMig.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
